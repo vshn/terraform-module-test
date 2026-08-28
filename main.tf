@@ -6,7 +6,7 @@ terraform {
     # so Renovate raises a patch-update PR to exercise the automation.
     http = {
       source  = "hashicorp/http"
-      version = "3.6.0"
+      version = "3.6.1"
     }
   }
 }
