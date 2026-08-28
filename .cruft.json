@@ -1,0 +1,17 @@
+{
+  "template": "https://github.com/vshn/terraform-module-template",
+  "commit": "39568e9cdf5f6490648dbc031829dd7fb6c6bfab",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_slug": "terraform-module-test",
+      "description": "a test module",
+      "_copy_without_render": [
+        ".github/workflows/*"
+      ],
+      "_template": "https://github.com/vshn/terraform-module-template",
+      "_commit": "39568e9cdf5f6490648dbc031829dd7fb6c6bfab"
+    }
+  },
+  "directory": null
+}
