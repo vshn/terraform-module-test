@@ -1,13 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "addLabels": ["vega-renovate-ops", "dependencies"],
+  "addLabels": ["vega-renovate-ops"],
   "reviewers": ["team:vega"],
   "packageRules": [
-    {
-      "matchUpdateTypes": ["patch"],
-      "automerge": true
-    }
+    { "matchUpdateTypes": ["patch"], "automerge": true, "addLabels": ["patch"] },
+    { "matchUpdateTypes": ["minor"], "addLabels": ["minor"] },
+    { "matchUpdateTypes": ["major"], "addLabels": ["major"] }
   ],
   "platformAutomerge": true
 }
