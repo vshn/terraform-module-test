@@ -12,6 +12,4 @@ module "example" {
 
 ---
 
-This repository was generated from `terraform-module-template` and its
-boilerplate is kept in sync via Cruft. Change shared files (CI, Renovate,
-gitignore) in the template, not here.
+Testing labels for releases...
