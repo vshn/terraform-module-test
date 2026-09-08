@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/vshn/terraform-module-template",
-  "commit": "39568e9cdf5f6490648dbc031829dd7fb6c6bfab",
+  "commit": "0f4ceb2fea288302bda654f7a0a63a611a65d248",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -10,7 +10,7 @@
         ".github/workflows/*"
       ],
       "_template": "https://github.com/vshn/terraform-module-template",
-      "_commit": "39568e9cdf5f6490648dbc031829dd7fb6c6bfab"
+      "_commit": "0f4ceb2fea288302bda654f7a0a63a611a65d248"
     }
   },
   "directory": null
