@@ -4,7 +4,7 @@ terraform {
   required_providers {
     dns = {
       source  = "hashicorp/dns"
-      version = "3.6.1"
+      version = "3.6.2"
     }
     http = {
       source  = "hashicorp/http"
